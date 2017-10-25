@@ -1,0 +1,228 @@
+body {
+	font-size: 1.05em;
+	line-height: 1.25em;
+	font-family: Helvetica Neue, Helvetica, Arial;
+	width: 100%;
+}
+.mitch{
+	width: 5%;
+	height: 5%;
+	margin-left: 48%;
+}
+.backgroundPic{
+  width: 100%;
+  height: 500px;
+}
+.backgroundPic:nth-child(2), .backgroundPic:nth-child(3), .backgroundPic:nth-child(4){
+	display: none;
+}
+.logo{
+  padding:10px;
+	margin: 0px 0px 0px 10px;
+  background-color: #000000;
+	width: 50%;
+}
+a {
+	color: #000000;
+	text-decoration: none;
+}
+.current{
+	color: #660066;
+}
+a:hover{
+	color: #660066;
+}
+header{
+	grid-template-rows: 100px;
+	width: 100%;
+	height: 76px;
+	top: 0;
+	left: 0;
+}
+nav{
+	width: 100%;
+  float: right;
+	padding: 2%;
+	position: fixed;
+	z-index:1;
+	background-color: rgba(255,255,255,0.75);
+}
+nav li{
+	text-align: center;
+}
+/* -------- */
+#menu{
+	display: hidden;
+	margin: 0px 0px 0px 80px;
+	width: 40px;
+	height: 40px;
+	background: #660066;
+}
+a:hover#menu{
+	background-color: #444;
+	border-radius: 4px 4px 0 0;
+}
+li{
+	display: inline-block;
+	padding: 10px;
+
+}
+#TopSales{
+  width: 100%;
+  margin-top: -10px;
+  background-color: #444;
+}
+#wsjTopSales{
+  font-size: 1.2em;
+  color: white;
+	padding: 15px;
+  text-align: center;
+}
+#tekstPaars{
+  background-color: #660066;
+	width: 100%
+}
+#signature{
+  width: 200px;
+  height: 100px;
+	padding: 15px;
+}
+#tekstPaars p{
+	color: white;
+	padding: 15px;
+}
+#tekstPaars h2{
+	color: white;
+	padding-left: 15px;
+	padding-bottom: 10px;
+	font-size: 1em;
+}
+#signatureRyan{
+	width: 92%;
+	height: 400px;
+	padding: 15px;
+}
+			/* grid fotos */
+			#fotos{
+				display: grid;
+				grid-template-columns: 1fr 1fr;
+				grid-template-rows: 180px 180px 180px 180px 180px;
+				width: 100%;
+			}
+			#fotos img{
+				width: 100%;
+				height: 180px;
+			}
+			.gebied1, .gebied3, .gebied5, .gebied7, .gebied9{
+				grid-column:1;
+			}
+			.gebied2, .gebied4, .gebied6, .gebied8, .gebied10{
+				grid-column:2;
+			}
+			#instagram{
+				text-decoration: none;
+				background-color: #80dfff;
+				padding: 5px;
+				text-align: center;
+				width: 47%;
+				color: white;
+				margin-left: auto;margin-top: 10px;margin-bottom: 50px;
+				grid-column: 1/span 2;
+			}
+/* -------- */
+#eigendommen{
+	width: 70%;
+	padding: 15%;
+	display: grid;
+	grid-template-columns: 1fr;
+}
+.foto1, .foto2, .foto3, .foto4, .foto5, .foto6, .foto7, .foto8, .foto9, .foto10{
+	grid-column: 1;
+	grid-row: auto;
+}
+#eigendommen h2{
+	font-size: 1.82em;font-weight: bold;text-decoration: underline;
+	text-align: center;
+	padding-bottom: 10%;
+}
+#eigendommen img{
+	width: 92%;
+	height: auto;
+	border: 1px solid #444;
+	padding: 5%;
+}
+#eigendommen h3{
+	font-weight: bold;text-decoration: underline;
+	text-align: center;
+	padding-bottom: 5%;
+}
+#eigendommen p{
+	font-size: 0.8em;
+}
+/* ---- footer ---- */
+				footer{
+					width: 100%;
+					background-color:rgba(102, 0, 102,0.8);
+				}
+				#socialMedia{
+					padding:6%;
+				}
+				.social{
+					width: 15%;
+					height: 50px;
+					padding-right: 1%;
+					margin-top: -10%;
+				}
+				.laatsteLogo{
+					border-bottom: 1px solid #444;
+					width: 98%;
+				}
+				footer h3{
+					text-decoration: underline;
+					font-size: 2em;
+					text-align: center;
+					padding-top: -5%; padding-bottom: 2%;
+				}
+				footer p{
+					text-align: center;
+					font-size: 0.8em;
+				}
+				.bravoENZO img{
+					width: 24%;
+					height: 75px;
+					padding-left: 6%;padding-top: 10%;
+				}
+				#Mitch{
+					color: rgba(102,0,15,0.90);
+					padding-top: 15%
+				}
+
+
+/* ---- Iphone6 ---- */
+
+	header{
+		position: absolute;
+	}
+	#menu{
+		display:inline-block;
+	}
+	nav ul, nav:active ul{
+		display: none;
+		position: absolute;
+    background-color: rgba(255,255,255,0.75);
+		padding: 10px;
+		border: 5px solid #444;
+		right: 20px;
+		top: 60px;
+		width: 50%;
+		border-radius: 4px 0 4px 4px;
+	}
+	nav li{
+		text-align: center;
+		width: 80%;
+		padding: 10px 0;
+		margin: 0;
+	}
+	nav:hover ul{
+		display: block;
+	}

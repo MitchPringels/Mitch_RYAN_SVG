@@ -1,0 +1,155 @@
+/* ---- PC ---- */
+@media (min-width : 1200px) {
+  .backgroundPic{
+    width: 100%;
+    height: 50em;
+    }
+    nav{
+      display: grid;
+      grid-column: repeat(6, 1fr);
+    	width: 100%;
+      float: right;
+    	padding: 10px;
+    	background-color: rgba(255,255,255,0.75);
+    }
+    #menu{
+      display: none;
+    }
+    nav ul{
+  		display: none;
+      background-color: rgba(255,255,255,0.95);
+      margin-top: 2em;
+      grid-column: 6;
+    }
+    .logo{
+      padding:10px;
+    	margin: 5px 0px 0px -2.5em;
+    	width: 45%;
+      height: 50px;
+      grid-column:4/span 3;
+    }
+    /*----------------------*/
+    #TopSales{
+      width: 100%;
+      margin-top: -1.8em;
+      height: 12em;
+      margin-bottom: 2em;
+    }
+    #wsjTopSales{
+      font-size: 2em;
+    	padding: 3em;
+    }
+    /*----------------------*/
+    #tekstPaars{
+      width: 90%;
+      height: auto;
+      margin: auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: auto;
+    }
+    #tekstPaars p{
+      grid-column: 1/span 4;
+    	font-size: 1.2em;
+      line-height: 1.5em;
+    }
+    #tekstPaars h2{
+    	font-size: 1.2em;
+      line-height: 0.5em;
+      grid-column: 1;
+    }
+    #signature{
+      grid-column: 2;
+      grid-row:2/span 3;
+      padding-top: 4.8em;padding-right: 10em;
+    }
+    #signatureRyan{
+      height: auto;
+      grid-column: 3;
+      grid-row:2/span 4;
+      width: 100%;
+    }
+    /*----------------------*/
+    #fotos{
+      margin: auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+      grid-template-rows: auto;
+      width: 90%;
+    }
+    #fotos img{
+      filter: grayscale(100%) !important;
+      transition: .3s ease-in-out;
+    }
+    .gebied1{grid-column: 1; grid-row: 1}
+    .gebied2{grid-column: 2;}
+    .gebied3{grid-column: 3;}
+    .gebied4{grid-column: 4;}
+    .gebied5{grid-column: 5;}
+    .gebied6{grid-column: 1; grid-row: 2}
+    .gebied7{grid-column: 2;}
+    .gebied8{grid-column: 3;}
+    .gebied9{grid-column: 4;}
+    .gebied10{grid-column: 5;}
+
+    #fotos img:hover{
+      filter: grayscale(0%)!important;
+    }
+    #instagram{
+      grid-column: 4/6;
+      padding: 0.8em;
+    }
+    /*----------------------*/
+    #eigendommen{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: auto;
+      grid-row-gap: 5em;
+    	width: 70%;
+    }
+    #eigendommen h2{
+    	font-size: 2em;
+      grid-column: 1/span 4;
+      margin-top: -38em;
+    }
+    #eigendommen img{
+    	width: 90%;
+    	height: auto;
+    }
+    .foto1{grid-column: 1; grid-row: 1}
+    .foto2{grid-column: 2;}
+    .foto3{grid-column: 3;}
+    .foto4{grid-column: 4;}
+    .foto5{grid-column: 1;}
+    .foto6{grid-column: 2; grid-row: 2}
+    .foto7{grid-column: 3;}
+    .foto8{grid-column: 4;}
+    .foto9{grid-column: 2;}
+    .foto10{grid-column: 3;}
+    .foto1, .foto2, .foto3, .foto4{grid-row: 1;}
+    .foto5, .foto6, .foto7, .foto8{grid-row: 2;}
+    .foto9, .foto10{grid-row: 3;}
+    /*----------------------*/
+    #socialMediaPC{
+      padding-left:37%;
+    }
+    .social{
+    width: 4%;
+    }
+    .laatsteLogo{
+      width: 25%;
+      padding-left: 37%;
+    }
+    .bravoENZO{
+      width: 50%;
+      padding-left:27%;
+    }
+    footer p{
+      font-size: 1em;
+    }
+    #Mitch{padding-top: 5%;}
+}
+@media (min-width:1660px) {#eigendommen h2{margin-top: -45em;}}
+@media (min-width:2200px) {#eigendommen h2{margin-top: -50em;}}
+@media (min-width:2650px) {#eigendommen h2{margin-top: -58em;}}
+@media (min-width:3300px) {#eigendommen h2{margin-top: -65em;}}
